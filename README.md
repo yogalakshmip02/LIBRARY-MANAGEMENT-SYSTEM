@@ -11,16 +11,18 @@ we are using RestApi to add,view,update the data for librarian
 
 *  RegisterAPI :
 In this api, we Can register a member
-<br>
 http://localhost:8077/library/member
 <br>
 http://localhost:8077/library/members/1
+<br>
 http://localhost:8077/library//memberdelete/2
 
 *  BookStatusAPI
 In this api, we Can check the current status of books and Add/edit books and their information to the database
 http://localhost:8077/library/update/2
+<br>
 http://localhost:8077/library/book
+<br>
 http://localhost:8077/library/books/5
 
 *  CategoryBookAPI:
@@ -43,7 +45,8 @@ http://localhost:8077/swagger-ui.html
 
 we are store the data in h2 database
 http://localhost:8077/h2
-we have 6 tables for library![Screenshot (85)](https://user-images.githubusercontent.com/113039639/188908425-9dbb1e47-96a0-4344-8702-662d3b2b1c78.png)
+we have 6 tables for library
+![Screenshot (85)](https://user-images.githubusercontent.com/113039639/188908425-9dbb1e47-96a0-4344-8702-662d3b2b1c78.png)
 
 # API-GATEWAY 
 http://localhost:9192/library/
@@ -62,6 +65,7 @@ http://localhost:8072/member/bookscategory/{CategoryName}
 In this api, we Can check the current status of the books
 
 http://localhost:8072/member/book
+<br>
 http://localhost:8072/member/books/110
 
 *  BookAssignedAPI :
