@@ -1,20 +1,28 @@
 # LIBRARY-MANAGEMENT-SYSTEM
 <br>                                             
-*This assignment is developed by using Microservices. 
-*Library management system provides online real time information about the books available in Library. 
-*It is capable of managing book issues and returns. 
-*Librarian will act as the administrator to control members and manage books. 
-*The member’s status of issue/return is maintained in the library database.
-*Members will be able to check the availability of books in different categories. 
-*Member’s details and book details can be fetched by the librarian when required.
+* This assignment is developed by using Microservices.
+<br> 
+* Library management system provides online real time information about the books available in Library. 
+<br>
+* It is capable of managing book issues and returns. 
+<br>
+* Librarian will act as the administrator to control members and manage books. 
+<br>
+* The member’s status of issue/return is maintained in the library database.
+<br>
+* Members will be able to check the availability of books in different categories. 
+<br>
+* Member’s details and book details can be fetched by the librarian when required.
+<br>
                                                                           
  In this assignment, we have two microservices such as Librarian, Member.
+ <br>
  ## 1. Librarian
- 
+<br>
  ### Rest API
 we are using RestApi to add,view,update the data for librarian
 <br>
-**RegisterAPI** :
+* RegisterAPI :
 <br>
 In this api, we Can register a member
 http://localhost:8077/library/member
@@ -23,7 +31,7 @@ http://localhost:8077/library/members/1
 <br>
 http://localhost:8077/library//memberdelete/2
 <br>
-**BookStatusAPI**
+* BookStatusAPI
 <br>
 In this api, we Can check the current status of books and Add/edit books and their information to the database
 <br>
@@ -33,19 +41,19 @@ http://localhost:8077/library/book
 <br>
 http://localhost:8077/library/books/5
 
-**CategoryBookAPI**:
+* CategoryBookAPI:
   <br>
 we Can view the different categories of books available in the library and we Can view the list of books available in each category
 <br>
 http://localhost:8077/library/bookscategory/MBA
 <br>
-**BookIssueAPI**
+* BookIssueAPI:
  <br>
 In this api, we Can issue a book to the member
 <br>
 http://localhost:8077/library/issue
 <br>
-**ReportsAPI**
+* ReportsAPI
 <br>
 In this api, we can see the reports of issued and returned books
 <br>
@@ -79,13 +87,13 @@ http://localhost:9192/library/
 <br>
 we are using RestApi to add,view,update the data for Member
 <br>
-**CategoryBookAPI**:
+* CategoryBookAPI:
 <br>
 In this api, we Can view the different categories of books available in the library and we Can view the list of books available in each category
 <br>
 http://localhost:8072/member/bookscategory/{CategoryName}
 <br>
-**BookStatusAPI** :
+* BookStatusAPI :
 <br>
 In this api, we Can check the current status of the books
 <br>
@@ -93,19 +101,19 @@ http://localhost:8072/member/book
 <br>
 http://localhost:8072/member/books/110
 <br>
-**BookAssignedAPI** :
+* BookAssignedAPI :
 <br>
 In this api, we Can view the books assigned to him.
 <br>
 http://localhost:8072/member/books/6
 <br>
-**RaiseRequestAPI**:
+* RaiseRequestAPI:
 <br>
 In this api,Can raise a new request for an available book
 <br>
 http://localhost:8072/member/books/10
 <br>
-**HistoryAPI**:
+* HistoryAPI:
 <br>
 In this api, Can view the history of books issued to him previously
 <br>
@@ -127,11 +135,11 @@ we have 6 tables for member
 <br>
 ![Screenshot (87)](https://user-images.githubusercontent.com/113039639/188909762-83f6b017-7e56-4f3c-a6da-a525132318f5.png)
 <br>
-#API GATEWAY
+### API GATEWAY
 <br>
 http://localhost:9192/member/
 <br>
-#EUREKA SERVER
+### EUREKA SERVER
 <br>
  we are registering the librarian and member microservices into eureka server
 <br>
