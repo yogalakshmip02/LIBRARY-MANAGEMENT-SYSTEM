@@ -19,7 +19,7 @@
  <br>
  # 1. Librarian
 <br>
-. Rest API
+# Rest API
 <br>
 we are using RestApi to add,view,update the data for librarian
 <br>
@@ -60,14 +60,14 @@ In this api, we can see the reports of issued and returned books
 <br>
 http://localhost:8077/library/code
 <br>
-### SWAGGER-API
+# SWAGGER-API
 <br>
 we are using the swagger-api for Librarian
 <br>
 http://localhost:8077/swagger-ui.html
 <br>
 
-### H2 DATABASE
+# H2 DATABASE
 <br>
 
 we are store the data in h2 database
@@ -78,13 +78,13 @@ we have 6 tables for library
 <br>
 ![Screenshot (85)](https://user-images.githubusercontent.com/113039639/188908425-9dbb1e47-96a0-4344-8702-662d3b2b1c78.png)
 <br>
-### API-GATEWAY 
+# API-GATEWAY 
 <br>
 http://localhost:9192/library/
 <br>
-## 2. Member
+# 2. Member
 <br>
-### Rest API
+# Rest API
 <br>
 we are using RestApi to add,view,update the data for Member
 <br>
@@ -120,13 +120,13 @@ In this api, Can view the history of books issued to him previously
 <br>
 http://localhost:8072/member/history
 <br>
-### SWAGGER-API
+# SWAGGER-API
 <br>
 we are using the swagger-api for Librarian
 <br>
 http://localhost:8072/swagger-ui.html
 <br>
-### H2 Database
+# H2 Database
 <br>
 we are store the data in h2 database
 <br>
@@ -136,11 +136,11 @@ we have 6 tables for member
 <br>
 ![Screenshot (87)](https://user-images.githubusercontent.com/113039639/188909762-83f6b017-7e56-4f3c-a6da-a525132318f5.png)
 <br>
-### API GATEWAY
+# API GATEWAY
 <br>
 http://localhost:9192/member/
 <br>
-### EUREKA SERVER
+# EUREKA SERVER
 <br>
  we are registering the librarian and member microservices into eureka server
 <br>
