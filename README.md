@@ -1,15 +1,15 @@
-                                                            # LIBRARY-MANAGEMENT-SYSTEM
+#ffffffLIBRARY-MANAGEMENT-SYSTEM
                                                   
                                                                           
-                                                                          This assignment is developed by using Microservices. Library management system provides online real time information about the books available in Library. It is capable of managing book issues and returns. Librarian will act as the administrator to control members and manage books. The member’s status of issue/return is maintained in the library database. Members will be able to check the availability of books in different categories. Member’s details and book details can be fetched by the librarian when required. 
+                                                                          This assignment is developed by using Microservices. Library management system provides online real time information about the books available in Library. It is capable of managing book issues and returns. Librarian will act as the administrator to control members and manage books. The member’s status of issue/return is maintained in the library database. Members will be able to check the availability of books in different categories. Member’s details and book details can be fetched by the librarian when required.
                                                                           
  In this assignment, we have two microservices such as Librarian, Member.
- # 1. Librarian
+ ## 1. Librarian
  
- # Rest API
+ ### Rest API
 we are using RestApi to add,view,update the data for librarian
-
-*RegisterAPI :
+<br>
+**RegisterAPI** :
 <br>
 In this api, we Can register a member
 http://localhost:8077/library/member
@@ -18,86 +18,89 @@ http://localhost:8077/library/members/1
 <br>
 http://localhost:8077/library//memberdelete/2
 <br>
-*BookStatusAPI
+**BookStatusAPI**
+<br>
 In this api, we Can check the current status of books and Add/edit books and their information to the database
+<br>
 http://localhost:8077/library/update/2
 <br>
 http://localhost:8077/library/book
 <br>
 http://localhost:8077/library/books/5
 
-*CategoryBookAPI:
+**CategoryBookAPI**:
   <br>
 we Can view the different categories of books available in the library and we Can view the list of books available in each category
 <br>
 http://localhost:8077/library/bookscategory/MBA
 <br>
-*BookIssueAPI
+**BookIssueAPI**
  <br>
 In this api, we Can issue a book to the member
 <br>
 http://localhost:8077/library/issue
 <br>
-*ReportsAPI
+**ReportsAPI**
 In this api, we can see the reports of issued and returned books
 http://localhost:8077/library/code
 
-# SWAGGER-API
+### SWAGGER-API
 we are using the swagger-api for Librarian
 http://localhost:8077/swagger-ui.html
 
-# H2 DATABASE
+### H2 DATABASE
 
 we are store the data in h2 database
 http://localhost:8077/h2
 we have 6 tables for library
 ![Screenshot (85)](https://user-images.githubusercontent.com/113039639/188908425-9dbb1e47-96a0-4344-8702-662d3b2b1c78.png)
 
-# API-GATEWAY 
+### API-GATEWAY 
 http://localhost:9192/library/
 
-# 2. Member
+## 2. Member
 
-# Rest API
+### Rest API
 we are using RestApi to add,view,update the data for Member
 <br>
-*CategoryBookAPI:
+**CategoryBookAPI**:
+<br>
 In this api, we Can view the different categories of books available in the library and we Can view the list of books available in each category
 <br>
 http://localhost:8072/member/bookscategory/{CategoryName}
 
-*BookStatusAPI :
+**BookStatusAPI** :
 In this api, we Can check the current status of the books
-
+<br>
 http://localhost:8072/member/book
 <br>
 http://localhost:8072/member/books/110
 <br>
-*BookAssignedAPI :
+**BookAssignedAPI** :
 <br>
 In this api, we Can view the books assigned to him.
 <br>
 http://localhost:8072/member/books/6
 <br>
-*RaiseRequestAPI:
+**RaiseRequestAPI**:
 <br>
 In this api,Can raise a new request for an available book
 <br>
 http://localhost:8072/member/books/10
 <br>
-*HistoryAPI:
+**HistoryAPI**:
 <br>
 In this api, Can view the history of books issued to him previously
 <br>
 http://localhost:8072/member/history
 <br>
-# SWAGGER-API
+### SWAGGER-API
 <br>
 we are using the swagger-api for Librarian
 <br>
 http://localhost:8072/swagger-ui.html
 <br>
-# H2 Database
+### H2 Database
 we are store the data in h2 database
 <br>
 http://localhost:8072/h2
