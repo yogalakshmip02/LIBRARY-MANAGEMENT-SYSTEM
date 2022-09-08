@@ -35,7 +35,7 @@ In this api, we can see the reports of issued and returned books
 we are store the data in h2 database
 <br>
 we have 6 tables for library
-<br>
+
 ![Screenshot (85)](https://user-images.githubusercontent.com/113039639/188908425-9dbb1e47-96a0-4344-8702-662d3b2b1c78.png)
 <br>
 # 2. Member
@@ -74,10 +74,11 @@ we have 6 tables for member
 # EUREKA SERVER
 <br>
 we are registering the librarian and member microservices into eureka server
+
 ![Screenshot (88)](https://user-images.githubusercontent.com/113039639/188912076-7678593c-f491-4751-9f7a-62136af0996c.png)
-<br>
+
 ![Screenshot (89)](https://user-images.githubusercontent.com/113039639/188912150-b223a85f-0fac-410f-bf32-d5407e5a3d92.png)
-<br>
+
 ![Screenshot (90)](https://user-images.githubusercontent.com/113039639/188912230-afc408b1-f257-4bff-99ac-eecc0dd43f2e.png)
 
 # SWAGGER-API and API GATEWAY
