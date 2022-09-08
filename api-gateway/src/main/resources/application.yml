@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: GATEWAY-SERVICE
+  cloud:
+    gateway:
+      routes:
+      - id: Librarian
+        uri: lb://Librarian     #cloud gateway
+        predicates:
+          - Path= /library/**
+      - id: Member
+        uri: lb://Member     #cloud gateway
+        predicates:
+          - Path= /member/**
+          
+          
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8720/eureka/   #eureka
+    instance:
+      hostname: localhost         
+server:
+  port: 9192
+  
