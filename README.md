@@ -14,23 +14,23 @@ we are using RestApi to add,view,update the data for librarian
 
 *RegisterAPI :
 <br>
-In this api, we Can register a member
+In this api, librarian Can register a member
 <br>
 *BookStatusAPI
 <br>
-In this api, we Can check the current status of books and Add/edit books and their information to the database
+In this api, librarian Can check the current status of books and Add/edit books and their information to the database
 <br>
 *CategoryBookAPI:
 <br>
-we Can view the different categories of books available in the library and we Can view the list of books available in each category
+librarian Can view the different categories of books available in the library and we Can view the list of books available in each category
 <br>
 *BookIssueAPI:
 <br>
-In this api, we Can issue a book to the member
+In this api, librarian Can issue a book to the member
 <br>
 *ReportsAPI
 <br>
-In this api, we can see the reports of issued and returned books
+In this api, librarian can see the reports of issued and returned books
 <br>
 
 # H2 DATABASE
@@ -50,21 +50,22 @@ we are using RestApi to add,view,update the data for Member
 <br>
 *CategoryBookAPI:
 <br>
-In this api, we Can view the different categories of books available in the library and we Can view the list of books available in each category
+In this api, member Can view the different categories of books available in the library and we Can view the list of books available in each category
 <br>
 * BookStatusAPI :
+In this api, member can check current status of book
 <br>
 * BookAssignedAPI :
 <br>
-In this api, we Can view the books assigned to him.
+In this api, member Can view the books assigned to him.
 <br>
 * RaiseRequestAPI:
 <br>
-In this api,Can raise a new request for an available book
+In this api,member Can raise a new request for an available book
 <br>
 * HistoryAPI:
 <br>
-In this api, Can view the history of books issued to him previously
+In this api,member Can view the history of books issued to him previously
 <br>
 
 # H2 Database
